@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+body {
+    background-color: black;
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  #slider1 {
+    visibility: hidden;
+  }
+  #root > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > svg:nth-child(3){
+    visibility:hidden;
+  }
+  #root > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > svg:nth-child(1){
+    visibility:hidden;
+  }
+/* Add this CSS to your component's stylesheet */
+.slick-slider {
+  width: 100%; 
+  margin: auto; 
+}
+
+
+
+.slick-prev {
+  left: 0px; 
+}
+
+.slick-next {
+  right: 5px; 
+  font-size:5px;
+}
