@@ -66,5 +66,5 @@ Follow these steps to set up and run ScreenSphere locally:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [GPL-3.0 license](LICENSE).
 
